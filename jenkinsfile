@@ -11,7 +11,7 @@ agent { dockerfile {
             }
         }
     }
-node {
+    stage ('register') {
 
     checkout scm
 
